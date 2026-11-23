@@ -1,0 +1,17 @@
+{
+  "name": "My first rough cut",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "cuts": [
+    {"file": "interview.mp4", "in": 12.0, "out": 18.5},
+    {"file": "interview.mp4", "in": 41.2, "out": 47.0},
+    {"file": "broll.mp4", "in": 3.0, "out": 6.0}
+  ],
+  "overlays": [
+    {"file": "title.png", "start": 0.5, "end": 3.5}
+  ],
+  "audio": [
+    {"file": "music.wav", "start": 0, "end": 15.3}
+  ]
+}
