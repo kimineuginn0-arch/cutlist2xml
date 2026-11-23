@@ -9,10 +9,19 @@ Let a script, a transcript tool or an AI decide *where to cut*, then open the re
 - Optional overlay track (titles, PNGs, B-roll) and extra audio tracks (music, SFX)
 - 29.97 / 23.976 / 59.94 fps handled as NTSC rates
 
+## Install
+
+```sh
+pip install git+https://github.com/kimineuginn0-arch/cutlist2xml
+```
+
+Or just copy `cutlist2xml.py`; it has no dependencies.
+
 ## Usage
 
 ```sh
-python cutlist2xml.py example/edit.json            # writes example/edit.xml
+cutlist2xml example/edit.json                       # writes example/edit.xml
+python cutlist2xml.py example/edit.json            # same, without installing
 python cutlist2xml.py edit.json -o rough-cut.xml
 ```
 
