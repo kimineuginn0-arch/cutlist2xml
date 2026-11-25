@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools>=61"]
+requires = ["setuptools>=77"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -7,12 +7,11 @@ name = "cutlist2xml"
 version = "0.1.0"
 description = "Turn a JSON cut list into a Premiere Pro / DaVinci Resolve / FCP7 XML timeline"
 readme = "README.md"
-license = {text = "MIT"}
+license = "MIT"
 requires-python = ">=3.10"
 keywords = ["premiere", "davinci-resolve", "fcp7", "xml", "edl", "video-editing", "timeline"]
 classifiers = [
     "Programming Language :: Python :: 3",
-    "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
     "Topic :: Multimedia :: Video :: Non-Linear Editor",
 ]
