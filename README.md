@@ -4,7 +4,7 @@ Turn a JSON cut list into an editable timeline for **Premiere Pro**, **DaVinci R
 
 Let a script, a transcript tool or an AI decide *where to cut*, then open the result in a real editor and finish it by hand: every cut stays a separate, trimmable clip.
 
-- One Python file, standard library only (Python 3.9+)
+- One Python file, standard library only (Python 3.10+)
 - Cuts from one or many source files, placed back to back with their audio
 - Optional overlay track (titles, PNGs, B-roll) and extra audio tracks (music, SFX)
 - 29.97 / 23.976 / 59.94 fps handled as NTSC rates
